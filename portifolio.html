@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio — Benvindo Fiança</title>
+  <style>
+    :root{--bg:#f5f8fc;--card:#ffffff;--accent:#0d6efd;--muted:#64748b;--glass:rgba(13,110,253,0.08)}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,var(--bg),#eef4ff); color:#0f1724}
+    .container{max-width:980px;margin:36px auto;padding:28px}
+    .card{background:var(--card);border-radius:14px;padding:22px;box-shadow:0 6px 18px rgba(11,25,40,0.06);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#4aa3ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:34px}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .contacts{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .chip{background:var(--glass);padding:8px 12px;border-radius:999px;font-size:14px;color:var(--accent);display:inline-flex;gap:8px;align-items:center}
+    main{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .panel{background:linear-gradient(180deg,rgba(255,255,255,0.9),var(--card));padding:18px;border-radius:12px}
+    .section{margin-bottom:14px}
+    .section h3{margin:0 0 10px 0;color:var(--accent);font-size:16px}
+    ul{padding-left:18px;margin:0;color:#123}
+    .skills{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    .skill-pill{background:#f1f7ff;padding:8px 10px;border-radius:8px;border:1px solid rgba(13,110,253,0.08);font-size:14px}
+    .download{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .muted{color:var(--muted);font-size:14px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    /* responsive */
+    @media (max-width:860px){main{grid-template-columns:1fr} .avatar{width:80px;height:80px;font-size:28px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar" style="background:none;padding:0">
+            <img src="1.jpg" alt="Foto de Benvindo Fiança" style="width:96px;height:96px;border-radius:14px;object-fit:cover;border:2px solid #0d6efd;">
+          </div>
+        <div style="flex:1">
+          <h1>Benvindo Fiança Figueiredo Marimba</h1>
+          <div class="subtitle">Técnico Médio de Informática — Redes • Infraestrutura • Windows Server</div>
+          <div class="contacts">
+            <div class="chip">📍 Luanda, Angola</div>
+            <div class="chip">✉️ benvindofianca@gmail.com</div>
+            <div class="chip">📞 +244 926 052 415</div>
+            <div class="chip">🔗 <a href="https://www.linkedin.com/in/benvindo-fian%C3%A7a-126267327" target="_blank" style="color:var(--accent);text-decoration:none">LinkedIn</a></div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+          <a class="download" href="Portfolio_Benvindo_Fianca.pdf" download>Baixar PDF</a>
+          <div class="muted">Conclusão: 2024/2025</div>
+        </div>
+      </header><main>
+    <div>
+      <div class="panel section">
+        <h3>Perfil Profissional</h3>
+        <p class="muted">Sou Técnico Médio de Informática com experiência em redes, infraestrutura de TI e programação. Realizei estágios no Instituto de Telecomunicações e na INFOSI, com foco em administração de redes, manutenção de hardware e gerenciamento de Windows Server. Tenho certificação nos módulos CCNA 1 e 2.</p>
+      </div>
+
+      <div class="panel section">
+        <h3>Experiência</h3>
+        <ul>
+          <li><b>Instituto de Telecomunicações</b> — Estagiário (Infraestrutura). Instalação e manutenção de redes, suporte técnico e resolução de falhas.</li>
+          <li style="margin-top:8px"><b>INFOSI</b> — Estagiário (Infraestrutura). Administração de Windows Server, gestão de rede e manutenção de equipamentos.</li>
+        </ul>
+      </div>
+
+      <div class="panel section">
+        <h3>Formação</h3>
+        <p class="muted"><b>Instituto de Telecomunicações</b> — Técnico Médio de Informática. Principais áreas: Redes (CCNA 1 e 2), Programação, Sistemas Operativos, Reparação de Equipamentos.</p>
+      </div>
+
+      <div class="panel section">
+        <h3>Projetos / Contribuições</h3>
+        <ul>
+          <li>Implementação de topologias LAN e configuração de equipamentos de rede durante o estágio.</li>
+          <li>Suporte à migração de serviços em servidores Windows Server para ambientes de teste.</li>
+        </ul>
+      </div>
+    </div>
+
+    <aside>
+      <div class="panel section">
+        <h3>Competências Técnicas</h3>
+        <div class="skills">
+          <div class="skill-pill">Redes (CCNA 1 & 2)</div>
+          <div class="skill-pill">Windows Server</div>
+          <div class="skill-pill">Configuração de Switches/Routers</div>
+          <div class="skill-pill">Packet Tracer & VirtualBox</div>
+          <div class="skill-pill">Reparação de Hardware</div>
+          <div class="skill-pill">Python • HTML • CSS • JS</div>
+        </div>
+      </div>
+
+      <div class="panel section">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Trabalho em equipa</li>
+          <li>Proatividade</li>
+          <li>Boa comunicação</li>
+          <li>Aprendizado rápido</li>
+        </ul>
+      </div>
+
+      <div class="panel section">
+        <h3>Objetivo</h3>
+        <p class="muted">Atuar na área de Infraestrutura de Redes e Sistemas, aplicando conhecimentos técnicos para oferecer soluções eficientes e contribuir para o avanço tecnológico das instituições.</p>
+      </div>
+
+    </aside>
+  </main>
+
+  <footer>
+    <div class="muted">Portfólio gerado automaticamente — Personalize conforme necessário. Para hospedar: coloque este ficheiro HTML junto com o PDF e abra no browser, ou carregue-os num serviço de hosting estático (GitHub Pages, Netlify).</div>
+  </footer>
+</div>
+
+  </div>
+</body>
+</html>
